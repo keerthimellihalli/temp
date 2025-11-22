@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 2:
-    print("Usage: python temperature.py <temp_in_celsius>")
+    print("Usage: python temp.py <temp_in_celsius>")
     sys.exit(1)
 
 temp = float(sys.argv[1])
